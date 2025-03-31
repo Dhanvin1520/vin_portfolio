@@ -42,7 +42,7 @@ function Contact() {
                 <span className="h-5 w-5 text-purple-500 mt-1 mr-3">✉️</span>
                 <div>
                   <h4 className="font-medium text-white">Email</h4>
-                  <p className="text-gray-300">your.email@example.com</p>
+                  <p className="text-gray-300">dhanvin.vadlamudi269gmail.com</p>
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ function Contact() {
                 <span className="h-5 w-5 text-purple-500 mt-1 mr-3">📞</span>
                 <div>
                   <h4 className="font-medium text-white">Phone</h4>
-                  <p className="text-gray-300">(123) 456-7890</p>
+                  <p className="text-gray-300">77*********</p>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@ function Contact() {
                 <span className="h-5 w-5 text-purple-500 mt-1 mr-3">📍</span>
                 <div>
                   <h4 className="font-medium text-white">Location</h4>
-                  <p className="text-gray-300">City, State, Country</p>
+                  <p className="text-gray-300">Hyderabad||Delhi</p>
                 </div>
               </div>
             </div>
