@@ -24,7 +24,7 @@ function ThreeScene() {
     window.addEventListener("resize", handleResize);
 
     const particlesGeometry = new THREE.BufferGeometry();
-    const particlesCount = 1500;
+    const particlesCount = 1000;
     const positions = new Float32Array(particlesCount * 3);
 
     for (let i = 0; i < particlesCount * 3; i++) {
