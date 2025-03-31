@@ -57,7 +57,7 @@ const skills = [
   {
     category: "Frontend",
     icon: "\u2699\ufe0f", 
-    items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS","Bootstrap"],
   },
   {
     category: "Programming",
