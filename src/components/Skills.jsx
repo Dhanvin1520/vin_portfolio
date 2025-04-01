@@ -67,7 +67,7 @@ const skills = [
   {
     category: "Packages",
     icon: "\ud83d\udee0\ufe0f", 
-    items: ["Git", "Tailwind", "Bootstrap", "Figma"],
+    items: [ "OpenCV","Git", "Tailwind", "Bootstrap", "Figma"],
   },
 ];
 

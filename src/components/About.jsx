@@ -116,12 +116,12 @@ function About() {
             <h3 className="text-2xl font-bold mb-4 text-cyan-300">Who I Am</h3>
             <p className="text-gray-200 leading-relaxed">
               I'm a passionate Computer Science student with a flair for web development and an aspiring Software
-              Engineer. I'm mastering coding and design through epic personal projects, with 120+ LeetCode problems
-              crushed (1500+ rating) and a 600+ Codeforces score.
+              Engineer.gaining skills in coding and editing through personal projects and challenges with 120+ LeetCode problems
+              (1500+ rating) and a 600+ Codeforces score.
             </p>
             <p className="text-gray-200 mt-4 leading-relaxed">
-              I'm driven by tech's power to transform the world and thrilled to shape the future, one line of code at a
-              time.
+              
+              
             </p>
 
             {/* Social Links */}
