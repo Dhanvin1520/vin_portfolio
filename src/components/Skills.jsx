@@ -57,7 +57,7 @@ const skills = [
   {
     category: "Frontend",
     icon: "\u2699\ufe0f", 
-    items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS","Bootstrap"],
+    items: ["HTML", "CSS", "JavaScript", "React","threeJs"],
   },
   {
     category: "Programming",
@@ -65,9 +65,9 @@ const skills = [
     items: ["JavaScript", "Python"],
   },
   {
-    category: "Tools",
+    category: "Packages",
     icon: "\ud83d\udee0\ufe0f", 
-    items: ["Git", "GitHub", "VS Code", "Figma"],
+    items: ["Git", "Tailwind", "Bootstrap", "Figma"],
   },
 ];
 
@@ -86,7 +86,7 @@ function Skills() {
         });
       },
       {
-        threshold: 0.5, // Trigger when 50% of the section is visible
+        threshold: 0.5,
       }
     );
 
@@ -108,7 +108,7 @@ function Skills() {
       id="skills"
     >
       <div className="max-w-5xl mx-auto perspective-1500 transform-style-3d relative">
-        {/* Background Glow Effect */}
+
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-black animate-pulse-slow pointer-events-none"></div>
 
         <div className="text-center mb-12 animate-fade-in animation-delay-400 relative z-10">
@@ -146,7 +146,7 @@ function Skills() {
         </div>
       </div>
 
-      {/* Custom CSS */}
+
       <style jsx>{`
         .perspective-1500 {
           perspective: 1500px;

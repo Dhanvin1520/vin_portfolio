@@ -96,7 +96,7 @@ import React, { useEffect, useRef } from "react";
 const projects = [
   {
     title: "AirSwipe",
-    description: "AirSwipe is a  project that lets users control media playback using hand gestures detected via a webcam",
+    description: "AirSwipe is a  project that lets users control media playback using hand gestures detected via a webcam. It uses OpenCV for video processing, MediaPipe for hand tracking, and PyAutoGUI to simulate keyboard inputs.",
     image: "https://i.ytimg.com/vi/-_9WFzgI7ak/maxresdefault.jpg",
     tags: ["python", "OpenCv"],
     liveLink: "https://github.com/Dhanvin1520/AirSwipe",
@@ -132,7 +132,7 @@ function Projects() {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    const currentSection = sectionRef.current; // Store the ref value safely
+    const currentSection = sectionRef.current; 
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -144,7 +144,7 @@ function Projects() {
           }
         });
       },
-      { threshold: 0.5 } // Trigger when 50% is visible
+      { threshold: 0.5 } 
     );
 
     if (currentSection) {
@@ -165,7 +165,7 @@ function Projects() {
       id="projects"
     >
       <div className="max-w-5xl mx-auto perspective-1500 transform-style-3d relative">
-        {/* Background Glow Effect */}
+        
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-black animate-pulse-slow pointer-events-none"></div>
 
         <div className="text-center mb-12 relative z-10">
@@ -216,7 +216,7 @@ function Projects() {
                     rel="noopener noreferrer"
                     className="text-gray-200 hover:text-cyan-400 transition-colors flex items-center glow-link"
                   >
-                    <span className="w-4 h-4 mr-1 inline-block">GH</span>
+                    <span className="w-4 h-4 mr-1 inline-block"></span>
                     Code
                   </a>
                   <a
@@ -235,7 +235,7 @@ function Projects() {
         </div>
       </div>
 
-      {/* Custom CSS */}
+     
       <style jsx>{`
         .perspective-1500 {
           perspective: 1500px;
