@@ -42,7 +42,7 @@
 // }
 
 // export default About;
-"use client"
+
 
 import { useEffect, useRef } from "react"
 import { Github, Code2, Linkedin } from "lucide-react"
@@ -124,7 +124,7 @@ function About() {
               
             </p>
 
-            {/* Social Links */}
+
             <div className="mt-8 flex justify-center gap-6">
               <a
                 href="https://github.com/Dhanvin1520"
