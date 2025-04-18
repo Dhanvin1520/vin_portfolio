@@ -72,7 +72,7 @@ function About() {
             <p className="text-gray-200 leading-relaxed">
               I'm a passionate Computer Science student with a flair for web development and an aspiring Software
               Engineer.gaining skills in coding and editing through personal projects and challenges with 130+ LeetCode problems
-              (1500+ rating) and a 600+ Codeforces score.
+              (1500+ rating) and a 600+ codeforces score.
             </p>
             <p className="text-gray-200 mt-4 leading-relaxed">
               
