@@ -5,7 +5,7 @@ const skills = [
   {
     category: "Frontend",
     icon: "\u2699\ufe0f", 
-    items: ["HTML", "CSS", "JavaScript", "React","threeJs"],
+    items: ["TypeScript","JavaScript", "React","threeJs","HTML", "CSS",],
   },
   {
     category: "Programming",
@@ -15,7 +15,7 @@ const skills = [
   {
     category: "Packages",
     icon: "\ud83d\udee0\ufe0f", 
-    items: [ "OpenCV","Git", "Tailwind", "Bootstrap", "Figma"],
+    items: [ "OpenCV","GSAP","Tailwind","Git", "Bootstrap", "Figma"],
   },
 ];
 

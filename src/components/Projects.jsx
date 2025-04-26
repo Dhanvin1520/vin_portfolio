@@ -11,6 +11,14 @@ const projects = [
     githubLink: "https://github.com/Dhanvin1520/AirSwipe",
   },
   {
+    title: "Ultimate-BTech-Buddy",
+    description: "Developed a  productivity platform tailored for B.Tech students, integrating AI-powered assistance with essential academic and personal tools.",
+    image: "https://i.ytimg.com/vi/nHe_ZShNxKE/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gMShlMA8=&rs=AOn4CLAIjS-aOxdpOtzkpg5Ye9KX2-omww",
+    tags: ["TypeScript", "React", "GSAP", "Three.js", "Tailwind CSS", "HTML"],
+    liveLink: "https://ultimate-btech-buddy-0f9ba7.netlify.app/",
+    githubLink: "https://github.com/Dhanvin1520/vin_portfolio",
+  },
+  {
     title: "Automated-Resume Builder",
     description: "The Resume Builder is interactive platform that helps users to generate and download professional and ATS-friendly resumes.",
     image: "https://i.ytimg.com/vi/Dy-qGLpR_Lc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDzM1b_8Sd0of_z2G2qVTSfX_WqsA",
@@ -34,6 +42,7 @@ const projects = [
     liveLink: "https://dhanvin1520.github.io/capstone-project/",
     githubLink: "https://dhanvin1520.github.io/capstone-project/",
   },
+
 ];
 
 function Projects() {
